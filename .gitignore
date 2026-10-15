@@ -1,0 +1,11 @@
+build/
+dist/
+out/
+*.pdb
+*.zip
+.vs/
+.vscode/
+CMakeUserPresets.json
+vcpkg_installed/
+
+build-log.txt

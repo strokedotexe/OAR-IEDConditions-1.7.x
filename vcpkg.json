@@ -1,0 +1,17 @@
+{
+    "name": "oar-ied-condition-extensions",
+    "version-string": "1.1.0",
+    "description": "SKSE64 plugin that lets OAR read data from IED and SDS via conditions.",
+    "builtin-baseline": "2976266a3b2aa358e0eed9e89bde2e0cf59daf0a",
+    "dependencies": [
+        "directxmath",
+        "directxtk",
+        "fmt",
+        "nlohmann-json",
+        "rapidcsv",
+        "simpleini",
+        "spdlog",
+        "toml11",
+        "xbyak"
+    ]
+}
