@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.1.1
+
+No change to the plugin's behaviour. This release only makes the distributed archive carry what
+GPL-3.0 requires of a binary release.
+
+### Added
+
+- GPL-3.0 notices at the top of the project's own source files. The headers under `src/API` are
+  third-party plugin interfaces and are left as published.
+- `README.txt`, carrying the copyright notice, the warranty disclaimer and a link to this repository.
+- `LICENSE.txt`, `EXCEPTIONS.txt` and the complete corresponding source are now placed in the
+  archive by `package.ps1`, which previously shipped the DLL on its own.
+
 ## 1.1.0
 
 Forked from [SlavicPotato/OpenAnimationReplacer-IEDConditionExtensions](https://github.com/SlavicPotato/OpenAnimationReplacer-IEDConditionExtensions)

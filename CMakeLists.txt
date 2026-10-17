@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.21)
 
 project(
         OpenAnimationReplacer-IEDConditionExtensions
-        VERSION 1.1.0
+        VERSION 1.1.1
         DESCRIPTION "SKSE64 plugin that lets OAR read data from IED and SDS via conditions"
         LANGUAGES CXX)
 
@@ -39,7 +39,7 @@ configure_file(
 add_commonlibsse_plugin(${PROJECT_NAME}
         NAME "OpenAnimationReplacer-IEDConditionExtensions"
         AUTHOR "SlavicPotato"
-        VERSION 1.1.0
+        VERSION 1.1.1
         USE_ADDRESS_LIBRARY
         SOURCES
         src/main.cpp
