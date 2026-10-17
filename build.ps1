@@ -1,4 +1,4 @@
-# Builds DodgeFramework.dll for Skyrim SE/AE including 1.7.x.
+# Builds OpenAnimationReplacer-IEDConditionExtensions.dll for Skyrim SE/AE including 1.7.x.
 # Run from this directory: powershell -ExecutionPolicy Bypass -File .\build.ps1
 $ErrorActionPreference = 'Stop'
 
